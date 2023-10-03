@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.small-text{
+    font-size: 14px;
+}
+
+.container{
+    max-width: 1160px;
+    margin-inline: auto;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.profile{
+    line-height: 25px;
+    padding-top: 50px;
+}
+
+.profile span{
+    padding-left: 10px;
+}
+
+/* education-section */
+
+.inner-section{
+    padding-bottom: 20px;
+}
+
+.unordered-list{
+    list-style-position: inside;
+}
+
+.list{
+    padding-top: 10px;
+}
+.list span{
+    position: relative;
+    left: -12px;
+}
+
+.para{
+    padding:6px 0 0 12px;
+}
+
+.description{
+    padding: 15px 0 0 20px;
+}
